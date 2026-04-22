@@ -14,5 +14,27 @@
       "type": "streamable-http",
       "url": "https://mcp.katara.ai/mcp/"
     }
+  ],
+  "tools": [
+    {
+      "name": "ingest_data_source",
+      "description": "Connect and ingest data from external sources such as files, websites, GitHub, Notion, Google Drive, APIs, and databases into Katara."
+    },
+    {
+      "name": "configure_rag_pipeline",
+      "description": "Configure Katara-managed retrieval pipelines, including chunking, embeddings, vector storage, and indexing settings."
+    },
+    {
+      "name": "search_knowledge_base",
+      "description": "Search and retrieve context from data that has been indexed in Katara for agent and application workflows."
+    },
+    {
+      "name": "scan_compliance",
+      "description": "Scan data and configurations for compliance and sensitive-data issues such as PII, PCI, health data, and EU regulatory concerns."
+    },
+    {
+      "name": "optimize_ai_backend",
+      "description": "Review and improve backend performance characteristics such as latency, token usage, caching, and overall AI operating cost."
+    }
   ]
 }
